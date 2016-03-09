@@ -1,8 +1,5 @@
 package com.androidexample.gcm;
 
-/**
- * Created by kavi on 1/22/14.
- */
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;

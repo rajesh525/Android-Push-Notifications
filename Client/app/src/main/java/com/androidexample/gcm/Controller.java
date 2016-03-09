@@ -1,9 +1,5 @@
 package com.androidexample.gcm;
 
-/**
- * Created by kavi on 1/22/14.
- */
-
 import java.io.IOException;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;

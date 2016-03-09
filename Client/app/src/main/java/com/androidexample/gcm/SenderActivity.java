@@ -14,10 +14,7 @@ import io.socket.IOAcknowledge;
 import io.socket.IOCallback;
 import io.socket.SocketIO;
 import io.socket.SocketIOException;
-
-/**
- * Created by kavi on 1/24/14.
- */
+ 
 public class SenderActivity extends Activity {
 
     private TextView textView;

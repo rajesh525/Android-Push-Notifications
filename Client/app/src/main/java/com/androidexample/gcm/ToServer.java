@@ -10,10 +10,7 @@ import io.socket.IOAcknowledge;
 import io.socket.IOCallback;
 import io.socket.SocketIO;
 import io.socket.SocketIOException;
-
-/**
- * Created by kavi on 1/24/14.
- */
+  
 public class ToServer implements IOCallback {
 
     private SocketIO socket;
@@ -26,7 +23,7 @@ public class ToServer implements IOCallback {
     public void sentEmit() throws Exception {
         socket = new SocketIO();
         socket.connect("http://192.168.8.89:3000", this);
-        socket.emit("my other event", "SERVER RECEBEU ANDROID");
+        socket.emit("my other event", "SERVER HAS RECEIVED ANDROID");
     }
 
     @Override

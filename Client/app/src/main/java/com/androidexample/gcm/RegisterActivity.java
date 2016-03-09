@@ -1,9 +1,5 @@
 package com.androidexample.gcm;
-
-/**
- * Created by kavi on 1/22/14.
- */
-
+ 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
