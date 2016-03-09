@@ -1,10 +1,10 @@
 <?php
  
 // Database config variables
-define("DB_HOST", "localhost");
-define("DB_USER", "root");
-define("DB_PASSWORD", "1234");
-define("DB_DATABASE", "gcm_test");
+define("DB_HOST", "yourhost name");
+define("DB_USER", "user");
+define("DB_PASSWORD", "paswword");
+define("DB_DATABASE", "db name");
  
 // Google Cloud Messaging API Key
 // Place your Google API Key
