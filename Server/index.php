@@ -61,7 +61,7 @@
         <table  width="910" cellpadding="1" cellspacing="1" style="padding-left:10px;">
          <tr>
            <td align="left">
-              <h1>No of Devices Registered: <?php echo $NumOfUsers; ?></h1>
+              <h1>No of Devices Registered:<?php echo $NumOfUsers; ?></h1>
               <hr/>
            </td>
           </tr> 
@@ -95,14 +95,13 @@
                             <input type="hidden" name="regId"
                                       value="<?php echo $rowUsers["gcm_regid"] ?>"/>
                             <input type="submit" 
-                                      value="Send Push Notification" onClick=""/>
+                                      value="Send Push Notification !!" onClick=""/>
                         </div>
                     </form>
                  </td>
             <?php }
         } else { ?> 
-              <td>
-                User not exist.
+              <td>User not exist.
                </td>
         <?php } ?>
                      
